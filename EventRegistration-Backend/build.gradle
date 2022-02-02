@@ -1,17 +1,15 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.2-SNAPSHOT'
+	id 'org.springframework.boot' version '2.6.2'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
 
-group = 'ca.mcgil.ecse321'
+group = 'ca.mcgill.ecse321'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17.0'
 
 repositories {
 	mavenCentral()
-	maven { url 'https://repo.spring.io/milestone' }
-	maven { url 'https://repo.spring.io/snapshot' }
 }
 
 dependencies {
